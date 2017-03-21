@@ -9,4 +9,6 @@
     <string name="email">Correo Electronico</string>
     <string name="comentary">Comentario</string>
     <string name="btn">Actualizar</string>
+    <string name="List">Volver a la Lista</string>
+
 </resources>

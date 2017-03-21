@@ -10,11 +10,12 @@ public class ProfileActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
+        onConfigToolbar(getResources().getString(R.string.List),true);
     }
-        public void onConfigToolbar (){
+        public void onConfigToolbar (String title, boolean upButton){
             Toolbar toolbar =(Toolbar) findViewById(R.id.Toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("Volver a la Lista");
+        getSupportActionBar().setTitle(title);
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
     }
