@@ -31,7 +31,8 @@
        <Button
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
-           android:text="@string/nombre"/>
+           android:text="@string/nombre"
+           android:onClick="onCreateView"/>
 
    </LinearLayout>
        <LinearLayout
@@ -47,7 +48,8 @@
            <Button
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
-               android:text="@string/nombre2"/>
+               android:text="@string/nombre2"
+               android:onClick="onCreateView"/>
 
        </LinearLayout>
        <LinearLayout
