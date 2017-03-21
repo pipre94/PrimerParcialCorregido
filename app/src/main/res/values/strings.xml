@@ -2,4 +2,7 @@
     <string name="app_name">PrimerParcial</string>
     <string name="nombre">Contacto1</string>
     <string name="nombre2">Contacto 2</string>
+    <string name="Contac">Nombre: Andres Felipe</string>
+    <string name="LastName">Apellido: Teran Ortega</string>
+    <string name="age">Edad: 22</string>
 </resources>
